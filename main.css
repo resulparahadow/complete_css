@@ -66,4 +66,10 @@ body {
 
 .main-nav .main-nav-item {
     display: inline-block;
+    margin: 0 16px;
+}
+
+.main-nav-item > a {
+    color: #646b66;
+    text-decoration: none;
 }
