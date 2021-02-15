@@ -42,12 +42,21 @@ body {
 
 .main-header > div {
     display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: #0e4f1f;
 }
 
 .main-nav {
     display: inline-block;
-    width: calc(100% - 54px);
+    width: calc(100% - 100px);
     text-align: right;
+    vertical-align: middle;
 }
 
 .main-nav-items {
