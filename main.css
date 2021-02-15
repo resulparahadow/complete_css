@@ -69,7 +69,15 @@ body {
     margin: 0 16px;
 }
 
-.main-nav-item > a {
-    color: #646b66;
+.main-nav-item a {
+    color: #0e4f1f;
     text-decoration: none;
+}
+
+.main-nav-item a:hover {
+    color: white;
+}
+
+.main-nav-item a:active {
+    color: white;
 }
