@@ -16,6 +16,7 @@ body {
     color: yellow;
 }
 .section-title {
+    margin: 0;
     color: #2ddf5c;
 }
 
@@ -28,16 +29,32 @@ h2 {
     font-family: 'Anton', sans-serif;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
 
 .main-header {
     background: #2ddf5c;
     width: 100%;
+    padding: 8px 16px;
 }
 
-header > div {
-    padding: 5px 10px;
+.main-header > div {
+    display: inline-block;
 }
 
-nav ul li {
-    padding: 5px 8px;
+.main-nav {
+    display: inline-block;
+    width: calc(100% - 54px);
+    text-align: right;
+}
+
+.main-nav-items {
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav .main-nav-item {
+    display: inline-block;
 }
